@@ -33,6 +33,7 @@ Here, several advanced options are made available for RBM/DBN initialization and
 - regularizations: dropout, dropconnect, L1 penalty, L2 penalty, and unit sparsity
 - learning rate with step decay
 - momentum with step increase
+
 Furthermore, many others options can be easily implemented, thanks to the use and integration of pytorch (e.g., other optimizers, activation functions, or leanring rate decays).
 
 # ParameterTuner
