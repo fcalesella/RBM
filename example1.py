@@ -44,7 +44,7 @@ data = torch.from_numpy(data).to(torch.float64).to(device)
 data = Data(data)
 # data.normalize_()
 data.standardize_()
-data.makebatch(data.standard, batchsize=batchsize, inplace=True)
+data.makebatch(data=data.standard, batchsize=batchsize, inplace=True)
 vis = data.dims
 
 start_time = time.time()
